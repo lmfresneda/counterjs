@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script type="application/javascript" src="../build/CounterJS.js"></script>
+</head>
+<body>
+
+<script type="application/javascript">
+    var counter = Counter.getInstance("__my__app__test__");
+    var e = 1;
+    counter.newCounter(function () {
+        var p = document.createElement("p");
+        p.innerHTML = "<p>Llamada nº " + e + "</p>";
+        document.getElementsByTagName("body")[0].insertBefore(p, document.getElementsByTagName("body")[0].lastChild.nextSibling);
+        e += 1;
+    }, 10);
+</script>
+</body>
+</html>

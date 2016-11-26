@@ -1,0 +1,16 @@
+{
+  "name": "CounterJS",
+  "version": "0.0.1",
+  "description": "Realiza llamadas a métodos que configuremos de forma cíclica cada cierto lapso de tiempo (configurable)",
+  "author": "luis.miguel",
+  "main": "./build/CounterJS.js",
+  "keywords": [
+    "reload",
+    "time",
+    "timeout",
+    "counter"
+  ],
+  "typings": "./build/CounterJS.d.ts",
+  "dependencies": {},
+  "devDependencies": {}
+}

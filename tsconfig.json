@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "build/",
+    "target": "es5",
+    "sourceMap": true,
+    "inlineSourceMap": true,
+    "noImplicitReturns": true,
+    "declaration": true
+  },
+  "files": ["CounterJS.ts"]
+}
