@@ -1,1 +1,1 @@
-##Counter.js  - Makes calls to functions cyclically
+## Counter.js  - Makes calls to functions cyclically
